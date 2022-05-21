@@ -1,8 +1,16 @@
-#Hello World
+---
+title: Home
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | capitalize }}</h1>
+    {% include navigation.html %}
+    <p>This is some text to play with on the site</p>
 
-## Python scripts written while doing a Udemy course.
-- https://github.com/rogue7373/recon
-        
-## Didn't Realize I would be Learning Markdown 
-Who knew? Proably everyone but me at this point. Feeling like quite the late adopeter when it comes to learning some of this technology. Even though, maybe I am not doing too bad for a firewall guy.
-
+  </body>
+</html>

@@ -1,0 +1,14 @@
+I"<h1 id="about-page">About page</h1>
+<nav>
+  
+    <a href="/">Home</a>
+  
+    <a href="/about.html" class="current">About</a>
+  
+    <a href="/blog.html">Blog</a>
+  
+    <a href="/staff.html">Staff</a>
+  
+</nav>
+<p>This page tells you a little bit about me.</p>
+:ET
